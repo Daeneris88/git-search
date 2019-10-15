@@ -1,0 +1,90 @@
+* 
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+.main
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-content: center
+
+.panel
+    margin: 4vh
+    padding: 4vh
+    max-width: 400px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    border-radius: 5px 5px 5px 5px
+    -webkit-box-shadow: 10px 15px 15px 0px #a9a9a9
+    -moz-box-shadow: 10px 15px 10px 0px #a9a9a9
+    box-shadow: 10px 10px 10px 0px #a9a9a9
+    border: 1px solid #e7e7e7
+    &_results
+        margin-top: 16px
+        flex-wrap: wrap
+        flex-direction: column
+        &_div
+            display: flex
+            flex-direction: row
+        &_img
+            margin-right: 7px
+            weight: 80px
+            height: 80px
+            margin-bottom: 3px 
+        &-user
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            margin-bottom: 3px
+        &_info
+            display: flex
+            flex-direction: column
+        &_repo     
+            padding: 12px
+            border-bottom: 1px solid black
+        &_name
+            padding: 8px
+            border-bottom: 1px solid #cccccc
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            margin-bottom: 3px
+            &_div
+                display: flex  
+                flex-direction: row
+                margin-left: 3px
+            &_li
+                list-style: none
+    &_feedback
+        margin-top: 16px
+        &-message
+            padding: 2vh
+            border-radius: 5px 5px 5px 5px
+            border: 1px solid #cfb2b2
+            background-color: #f9dede
+            color: #920f44
+            font-weight: 100 
+
+.form
+    display: flex
+    flex-wrap: wrap
+    &_input
+        padding: 5px
+        border-radius: 2px 2px 2px 2px
+        border: 1px solid #dadada
+    &_button
+        color: #333333
+        padding: 5px
+        padding-right: 7px
+        padding-left: 7px
+        font-weight: 550 
+        border-radius: 2px 2px 2px 2px
+        border: 1px solid #dadada
+        background-color: #f9f9f9
+
+
+
+
+@import ./components.sass
